@@ -11,8 +11,8 @@ module.exports = {
     unoptimized: true,
     domains: [
       process.env.WORDPRESS_API_URL.match(/(?!(w+)\.)\w*(?:\w+\.)+\w+/)[0], // Valid WP Image domain.
-      'news.humatl.com',
-      'humantl.com'
+      'sports.pheats.site',
+      'pheats.site'
     ],
   },
   async rewrites() {
@@ -35,7 +35,7 @@ module.exports = {
             key: 'fbclid',
           },
         ],
-        destination: 'https://news.humatl.com/:path*',
+        destination: 'https://sports.pheats.site/:path*',
         permanent: false,
       },
       // Redirect with a 'referer' header
@@ -47,7 +47,7 @@ module.exports = {
             key: 'referer',
           },
         ],
-        destination: 'https://news.humatl.com/:path*',
+        destination: 'https://sports.pheats.site/:path*',
         permanent: false,
       },
     ];
