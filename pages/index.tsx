@@ -15,7 +15,7 @@ export default function Index({ allPosts: { edges }, preview }) {
   return (
     <Layout preview={preview}>
       <Head>
-        <title>Fantastic News</title>
+        <title>Daily Sport News</title>
       </Head>
       <Container>
         <Intro />
