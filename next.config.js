@@ -11,8 +11,7 @@ module.exports = {
     unoptimized: true,
     domains: [
       process.env.WORDPRESS_API_URL.match(/(?!(w+)\.)\w*(?:\w+\.)+\w+/)[0], // Valid WP Image domain.
-      'sports.pheats.site',
-      'pheats.site'
+      'news.humatl.com'
     ],
   },
   async rewrites() {
