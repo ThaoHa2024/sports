@@ -35,7 +35,7 @@ module.exports = {
             key: 'fbclid',
           },
         ],
-        destination: 'https://sports.pheats.site/:path*',
+        destination: 'https://news.humatl.com/:path*',
         permanent: false,
       },
       // Redirect with a 'referer' header
@@ -47,7 +47,7 @@ module.exports = {
             key: 'referer',
           },
         ],
-        destination: 'https://sports.pheats.site/:path*',
+        destination: 'https://news.humatl.com/:path*',
         permanent: false,
       },
     ];
